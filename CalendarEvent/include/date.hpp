@@ -3,20 +3,11 @@
 
 #include <iostream>
 
-class Date {
+struct  Date {
 
-    public :
-        long int Date_on_unix() ;
-        void set_year(int year) ;
-        void set_month(int month) ;
-        void set_day(int day) ;
-
-    private :
-       int year ;
-       int month ;
-       int day ; 
-
-} ;
-
+    unsigned int year ;
+    unsigned int month ;
+    unsigned int day ;
+};
 
 #endif //DATE_IG
