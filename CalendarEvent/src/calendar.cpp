@@ -1,8 +1,9 @@
 #include "calendar.hpp"
-#include "event.hpp"
-#include "date.hpp"
 
 using namespace std ;
+
+vector<Event> Calendar::Event_Table ;
+vector<Event> Calendar::Deleted_Events ;
 
 void Calendar::Add_Event() {
 
@@ -38,6 +39,13 @@ void Calendar::Add_Event() {
             cout<< "this name of Event is exist \n" ;
             return ;
         }
+    }
+
+    //validation
+
+    if(start_time_of_new_event.month > 12 || start_time_of_new_event.year > 30) {
+        cout<< "your date is not logical" << '\n' ;
+        return ;
     }
 
     //validation
@@ -95,4 +103,14 @@ void Calendar::Refresh() {
             Event_Table.erase(Event_Table.begin() + counter) ;
        }
     }
+}
+
+void Calendar::Cout_Deleted_Events() {
+
+    for(Event deleted_events : Deleted_Events) {
+        cout<< deleted_events.get_name() << '\n' ;
+    }
+
+    Deleted_Events.clear() ;
+    Deleted_Events.shrink_to_fit() ;
 }

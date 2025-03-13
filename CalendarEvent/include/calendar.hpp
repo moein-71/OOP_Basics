@@ -11,11 +11,12 @@ class Calendar {
 
         void Add_Event() ;
         void Refresh() ;
+        void Cout_Deleted_Events() ;
+
+        static std::vector<Event> Event_Table ;
+        static std::vector<Event> Deleted_Events ;
 
     private :
-
-        std::vector<Event> Event_Table ;
-        std::vector<Event> Deleted_Events ;
 
 } ;
 

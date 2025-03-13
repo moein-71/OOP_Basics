@@ -2,6 +2,11 @@
 #define DATE_IG
 
 #include <iostream>
+#include <string>
+#include <ctime>
+#include <vector>
+#include <chrono>
+#include <array>
 
 struct  Date {
 
