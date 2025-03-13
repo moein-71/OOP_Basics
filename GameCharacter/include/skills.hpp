@@ -4,8 +4,10 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <array>
 
 struct Skill {
+    
     std::string name ;
     int level ;
 } ;

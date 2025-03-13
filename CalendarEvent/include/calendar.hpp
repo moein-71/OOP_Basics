@@ -12,7 +12,7 @@ class Calendar {
         void Add_Event() ;
         void Refresh() ;
         static void Cout_Deleted_Events() ;
-        void print_events() ;
+        void print_events() const ;
         
 
     private :

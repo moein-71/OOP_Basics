@@ -7,11 +7,9 @@ class Game {
 
     public :
 
-        Game() ;
+        void add_character() ;
 
-        void set_character() ;
-        Game get_character() ;
-
+        void print_all_characters() ;
 
     private :
 

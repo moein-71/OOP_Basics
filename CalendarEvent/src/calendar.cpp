@@ -130,7 +130,7 @@ void Calendar::Cout_Deleted_Events() {
    }
 }
 
-void Calendar::print_events() {
+void Calendar::print_events() const {
     
     for(Event temp_event : Event_Table) {
         cout<< "name : " << temp_event.get_name() ;

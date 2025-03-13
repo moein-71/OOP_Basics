@@ -14,16 +14,13 @@ class Character {
         void set_power(double power) ;
         void set_skill(Skill skill) ;
 
-        std::string get_name() ;
-        int get_health() ;
-        double get_power() ;
-        Skill get_skill() ;
+        void print_information() ;
 
 
     private :
 
         std::string name ;
-        int health ;
+        unsigned int health ;
         double power ;
         std::vector<Skill> skills ;
 
