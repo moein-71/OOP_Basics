@@ -19,6 +19,9 @@ int main() {
         else if(order == "refresh") {
             Table.Refresh() ;
         }
+        else if(order == "print") {
+            Table.print_events() ;
+        }
         else if(order == "exit") {
             break ;
         }

@@ -5,6 +5,7 @@ using namespace std ;
 vector<Event> Calendar::Event_Table ;
 vector<Event> Calendar::Deleted_Events ;
 
+
 void Calendar::Add_Event() {
 
     Event add_this ;
@@ -13,6 +14,18 @@ void Calendar::Add_Event() {
 
     cout<< "Enter your name of event :" << '\n' ;
     cin>> name ;
+
+    //validation
+
+    for(Event Event_Validate : Event_Table) {
+
+        if(Event_Validate.get_name() == add_this.get_name()) {
+
+            cout<< "this name of Event is exist \n" ;
+            return ;
+        }
+    }
+    //
 
     add_this.set_name(name) ;
 
@@ -30,23 +43,17 @@ void Calendar::Add_Event() {
 
     add_this.set_end_time(end_time_of_new_event) ;
 
-    // validation
-
-    for(Event Event_Validate : Event_Table) {
-
-        if(Event_Validate.get_name() == add_this.get_name()) {
-
-            cout<< "this name of Event is exist \n" ;
-            return ;
-        }
-    }
-
     //validation
 
-    if(start_time_of_new_event.month > 12 || start_time_of_new_event.year > 30) {
+    if(start_time_of_new_event.month > 12 || start_time_of_new_event.day > 30) {
         cout<< "your date is not logical" << '\n' ;
         return ;
     }
+    else if(end_time_of_new_event.month > 12 || end_time_of_new_event.day > 30) {
+        cout<< "your date is not logical" << '\n' ;
+        return ;
+    }
+    //
 
     //validation
 
@@ -62,6 +69,7 @@ void Calendar::Add_Event() {
         cout<< "your date is not logical" << '\n' ;
         return ;
     }
+    //
 
     this -> Event_Table.push_back(add_this) ;
 }
@@ -81,36 +89,43 @@ void Calendar::Refresh() {
     now_month = local_time -> tm_mon + 1 ;
     now_day = local_time -> tm_mday ;
 
-    int counter = 0 ;
+    for(int i{} ; i<Event_Table.size() ; ++i) {
 
-    for(Event event_check : Event_Table) {
-
-       Date end_of_event = event_check.get_end_time() ;
+       Date end_of_event = Event_Table[i].get_end_time() ;
        
        if (end_of_event.year < now_year) {
-
-            Deleted_Events.push_back(event_check) ;
-            Event_Table.erase(Event_Table.begin() + counter) ;
+        
+            Deleted_Events.push_back(Event_Table[i]) ;
+            Event_Table.erase(Event_Table.begin() + i) ;
        }
        else if (end_of_event.year == now_year && end_of_event.month < now_month) {
-
-            Deleted_Events.push_back(event_check) ;
-            Event_Table.erase(Event_Table.begin() + counter) ;
+               
+            Deleted_Events.push_back(Event_Table[i]) ;
+            Event_Table.erase(Event_Table.begin() + i) ;
        }
        else if (end_of_event.year == now_year && end_of_event.month == now_month && end_of_event.day < now_day) {
 
-            Deleted_Events.push_back(event_check) ;
-            Event_Table.erase(Event_Table.begin() + counter) ;
+            Deleted_Events.push_back(Event_Table[i]) ;
+            Event_Table.erase(Event_Table.begin() + i) ;
        }
     }
 }
 
 void Calendar::Cout_Deleted_Events() {
 
-    for(Event deleted_events : Deleted_Events) {
-        cout<< deleted_events.get_name() << '\n' ;
+    for(int i{} ; i<Deleted_Events.size() ; ++i) {
+        cout<< Deleted_Events[i].get_name() << '\n' ;
     }
 
     Deleted_Events.clear() ;
     Deleted_Events.shrink_to_fit() ;
+}
+
+void Calendar::print_events() {
+    
+    for(Event temp_event : Event_Table) {
+        cout<< "name : " << temp_event.get_name() ;
+        cout<< "    start : " << temp_event.get_start_time().year << '/' << temp_event.get_start_time().month << '/' << temp_event.get_start_time().day << "   " ;
+        cout<< " end : " << temp_event.get_end_time().year << '/' << temp_event.get_end_time().month << '/' << temp_event.get_end_time().day << '\n' ;
+    }
 }

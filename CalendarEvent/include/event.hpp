@@ -22,6 +22,4 @@ class Event {
         Date end_time ;
 } ;
 
-
-
 #endif //EVENT_IG

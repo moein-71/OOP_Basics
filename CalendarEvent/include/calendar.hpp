@@ -8,16 +8,15 @@
 class Calendar {
 
     public :
-
         void Add_Event() ;
         void Refresh() ;
-        void Cout_Deleted_Events() ;
-
-        static std::vector<Event> Event_Table ;
-        static std::vector<Event> Deleted_Events ;
+        static void Cout_Deleted_Events() ;
+        void print_events() ;
+        
 
     private :
-
+        static std::vector<Event> Event_Table ;
+        static std::vector<Event> Deleted_Events ;
 } ;
 
 #endif //CALENDAR_IG
