@@ -8,6 +8,7 @@
 class Calendar {
 
     public :
+        Calendar() ;
         void Add_Event() ;
         void Refresh() ;
         static void Cout_Deleted_Events() ;
@@ -16,7 +17,7 @@ class Calendar {
 
     private :
         static std::vector<Event> Event_Table ;
-        static std::vector<Event> Deleted_Events ;
+        static std::vector<int> Ptr_Deleted ;
 } ;
 
 #endif //CALENDAR_IG
