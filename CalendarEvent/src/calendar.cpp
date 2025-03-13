@@ -105,7 +105,7 @@ void Calendar::Refresh() {
 
         if(its_init) {
             continue ;
-        }/////////////////////////////////////////////////////
+        }
        Date end_of_event = Event_Table[i].get_end_time() ;
        
        if (end_of_event.year < now_year) {
