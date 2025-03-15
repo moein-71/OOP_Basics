@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/main.cpp.o CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/hospital.cpp.o CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/patient.cpp.o -o app 

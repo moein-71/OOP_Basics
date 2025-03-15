@@ -7,7 +7,8 @@ class Hospital {
 
     public :
 
-        void add_patient() ;
+        Hospital() ;
+        void add_patient(Patient & patient) ;
         void show_patient() ;
 
     private :

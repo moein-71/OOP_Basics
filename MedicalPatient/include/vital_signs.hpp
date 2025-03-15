@@ -7,10 +7,12 @@
 
 struct Vital_signs {
 
-    int body_temperature ;
-    int heart_rate ;
-    int respiratory_rate ;
-    int blood_pressure ;
+    std::string body_temperature ;
+    std::string heart_rate ;
+    std::string respiratory_rate ;
+    std::string blood_pressure ;
+
+    bool set_Vital_signs() ;
 } ;
 
 #endif //vital_signs_IG
