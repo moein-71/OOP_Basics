@@ -7,7 +7,13 @@ bool Vital_signs::set_Vital_signs() {
     cout<< "Enter body temperature : " ;
     cin>> this -> body_temperature ;
 
+    int counter = 0 ; 
     for(char validate_body_temperature : body_temperature) {
+
+        if(validate_body_temperature == '.' && counter == 2) {
+            continue ;
+        }
+        ++counter ;
 
         if(validate_body_temperature > 57 || validate_body_temperature < 48) {
             cout<< "your body temperature is not logical" << '\n' ;
@@ -49,4 +55,6 @@ bool Vital_signs::set_Vital_signs() {
     }
 
     cout<< '\n' ;
+
+    return true ;
 }

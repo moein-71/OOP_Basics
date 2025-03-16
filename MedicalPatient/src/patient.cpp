@@ -10,7 +10,7 @@ Patient::Patient(std::string & name , int age , int height , int weight , Vital_
     this -> patient.blood_pressure = patient.blood_pressure ;
 
     if(stof(patient.body_temperature) < 36) {
-        cout<< "body temperature is lower than normal point" << '\n' ;
+        cout<< '\n' << "body temperature is lower than normal point" << '\n' ;
     }
     else if(stof(patient.body_temperature) > 37.5) {
         cout<< "body temperature is higher than normal point" << '\n' ;
@@ -19,10 +19,10 @@ Patient::Patient(std::string & name , int age , int height , int weight , Vital_
         cout<< "body temperature is normal" << '\n' ;
     }
 
-    if(stof(patient.heart_rate) < 60) {
+    if(stoi(patient.heart_rate) < 60) {
         cout<< "heart rate is lower than normal point" << '\n' ;
     }
-    else if(stof(patient.heart_rate) > 100) {
+    else if(stoi(patient.heart_rate) > 100) {
         cout<< "heart rate is higher than normal point" << '\n' ;
     }
     else {
@@ -31,10 +31,10 @@ Patient::Patient(std::string & name , int age , int height , int weight , Vital_
 
     if(age <= 3) {
 
-        if(stof(patient.respiratory_rate) < 20) {
+        if(stoi(patient.respiratory_rate) < 20) {
             cout<< "respiratory rate is lower than normal point" << '\n' ;
         }
-        else if(stof(patient.heart_rate) > 30) {
+        else if(stoi(patient.heart_rate) > 30) {
             cout<< "respiratory rate is higher than normal point" << '\n' ;
         }
         else {
@@ -43,10 +43,10 @@ Patient::Patient(std::string & name , int age , int height , int weight , Vital_
     }
     else if(age <= 10) {
 
-        if(stof(patient.respiratory_rate) < 17) {
+        if(stoi(patient.respiratory_rate) < 17) {
             cout<< "respiratory rate is lower than normal point" << '\n' ;
         }
-        else if(stof(patient.heart_rate) > 23) {
+        else if(stoi(patient.heart_rate) > 23) {
             cout<< "respiratory rate is higher than normal point" << '\n' ;
         }
         else {
@@ -55,10 +55,10 @@ Patient::Patient(std::string & name , int age , int height , int weight , Vital_
     }
     else if(age <= 30) {
 
-        if(stof(patient.respiratory_rate) < 15) {
+        if(stoi(patient.respiratory_rate) < 15) {
             cout<< "respiratory rate is lower than normal point" << '\n' ;
         }
-        else if(stof(patient.heart_rate) > 18) {
+        else if(stoi(patient.heart_rate) > 18) {
             cout<< "respiratory rate is higher than normal point" << '\n' ;
         }
         else {
@@ -67,10 +67,10 @@ Patient::Patient(std::string & name , int age , int height , int weight , Vital_
     }
     else if(age <= 50) {
 
-        if(stof(patient.respiratory_rate) < 18) {
+        if(stoi(patient.respiratory_rate) < 18) {
             cout<< "respiratory rate is lower than normal point" << '\n' ;
         }
-        else if(stof(patient.heart_rate) > 25) {
+        else if(stoi(patient.heart_rate) > 25) {
             cout<< "respiratory rate is higher than normal point" << '\n' ;
         }
         else {
@@ -79,10 +79,10 @@ Patient::Patient(std::string & name , int age , int height , int weight , Vital_
     }
     else {
 
-        if(stof(patient.respiratory_rate) < 10) {
+        if(stoi(patient.respiratory_rate) < 10) {
             cout<< "respiratory rate is lower than normal point" << '\n' ;
         }
-        else if(stof(patient.heart_rate) > 30) {
+        else if(stoi(patient.heart_rate) > 30) {
             cout<< "respiratory rate is higher than normal point" << '\n' ;
         }
         else {
@@ -90,15 +90,17 @@ Patient::Patient(std::string & name , int age , int height , int weight , Vital_
         }
     }
 
-    if(stof(patient.blood_pressure) < 80) {
+    if(stoi(patient.blood_pressure) < 80) {
         cout<< "blood pressure is lower than normal point" << '\n' ;
     } 
-    else if(stof(patient.blood_pressure) > 120) {
+    else if(stoi(patient.blood_pressure) > 120) {
         cout<< "blood pressure is higher than normal point" << '\n' ;
     }
     else {
         cout<< "blood pressure is normal" << '\n' ;
     }
+
+    cout<< '\n' ;
 } 
 
     std::string Patient::get_name() {

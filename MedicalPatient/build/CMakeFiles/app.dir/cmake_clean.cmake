@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.cpp.o"
+  "CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.cpp.o.d"
   "CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/hospital.cpp.o"
   "CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/hospital.cpp.o.d"
   "CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/main.cpp.o"

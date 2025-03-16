@@ -23,6 +23,6 @@ void Hospital::show_patient() {
         cout<< "Body temperature : " << Patient_list[i].get_vital_signs().body_temperature << '\n' ;
         cout<< "Heart rate : " << Patient_list[i].get_vital_signs().heart_rate << '\n' ;
         cout<< "Respiratory rate : " << Patient_list[i].get_vital_signs().respiratory_rate << '\n' ;
-        cout<< "Blood pressure : " << Patient_list[i].get_vital_signs().blood_pressure << '\n' ;
+        cout<< "Blood pressure : " << Patient_list[i].get_vital_signs().blood_pressure << "\n\n" ;
     }
 }

@@ -129,6 +129,30 @@ app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
 .PHONY : app/fast
 
+home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.o: home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.cpp.o
+.PHONY : home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.o
+
+# target to build an object file
+home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.cpp.o
+.PHONY : home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.cpp.o
+
+home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.i: home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.cpp.i
+.PHONY : home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.i
+
+# target to preprocess a source file
+home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.cpp.i
+.PHONY : home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.cpp.i
+
+home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.s: home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.cpp.s
+.PHONY : home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.s
+
+# target to generate assembly for a file
+home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.cpp.s
+.PHONY : home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.cpp.s
+
 home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/hospital.o: home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/hospital.cpp.o
 .PHONY : home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/hospital.o
 
@@ -210,6 +234,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... app"
+	@echo "... home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.o"
+	@echo "... home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.i"
+	@echo "... home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/Vital_sigs.s"
 	@echo "... home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/hospital.o"
 	@echo "... home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/hospital.i"
 	@echo "... home/moein/work/pishrafte/HW2/OOP_Basics/MedicalPatient/src/hospital.s"

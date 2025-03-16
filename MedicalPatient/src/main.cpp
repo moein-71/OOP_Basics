@@ -11,20 +11,27 @@ int main() {
     while(1) {
 
         string order ;
+        
+        cout<< "enter your order : " ;
         cin>> order ;
 
         if(order == "add") {
 
+            
             string name ;
+            cout<< '\n' << "enter patient name : " ;
             cin>> name ;
             
             int age ;
+            cout<< '\n' << "enter patient age : " ;
             cin>> age ;
 
             int height ;
+            cout<< '\n' << "enter patient height : " ;
             cin>> height ;
 
             int weight ;
+            cout<< '\n' << "enter patient weight : " ;
             cin>> weight ;
 
             Vital_signs patient ;

@@ -8,7 +8,7 @@ class Patient {
     public :
 
         Patient(std::string & name , int age , int height , int weight , Vital_signs & patient) ;
-        ~Patient() ;
+        //~Patient() ;
 
         std::string get_name() ;
         int get_age() ;
