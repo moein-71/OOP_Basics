@@ -6,8 +6,12 @@ int main() {
 
     Hospital Hospital_system ;
 
-    // in this we should read from file and set the old patient
-    
+    int Number_of_patient =  Hospital_system.get_Number_of_patient() ; 
+
+    if(Number_of_patient > 0) {
+        Hospital_system.set_Patient_list(Number_of_patient) ; 
+    }
+
     while(1) {
 
         string order ;
@@ -17,7 +21,6 @@ int main() {
 
         if(order == "add") {
 
-            
             string name ;
             cout<< '\n' << "enter patient name : " ;
             cin>> name ;
@@ -40,14 +43,20 @@ int main() {
                 continue ;
             }
 
+            ++Number_of_patient ;
+
             Patient add_patient(name , age , height , weight , patient) ;
 
             Hospital_system.add_patient(add_patient) ;
         }
         else if(order == "show") {
+
             Hospital_system.show_patient() ;
         }
         else if(order == "exit") {
+
+            Hospital_system.set_Number_of_patient(Number_of_patient) ;
+            remove("patient_file.txt") ;
             break ;
         }
         else {

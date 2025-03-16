@@ -4,6 +4,9 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <fstream>
+#include <filesystem>
+#include<bits/stdc++.h> 
 
 struct Vital_signs {
 

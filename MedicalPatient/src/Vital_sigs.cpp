@@ -4,7 +4,7 @@ using namespace std ;
 
 bool Vital_signs::set_Vital_signs() {
 
-    cout<< "Enter body temperature : " ;
+    cout<< '\n' << "Enter body temperature : " ;
     cin>> this -> body_temperature ;
 
     int counter = 0 ; 
