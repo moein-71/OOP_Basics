@@ -7,6 +7,8 @@ class Game {
 
     public :
 
+        Game() ;
+
         void add_character() ;
 
         void print_all_characters() ;

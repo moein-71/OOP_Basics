@@ -5,6 +5,11 @@ using namespace std ;
 
 vector<Character> Game::character ;
 
+Game::Game() 
+{
+    character.reserve(10) ;
+}
+
 void Game::add_character() {
 
     Character add_charcarter ;

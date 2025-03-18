@@ -7,14 +7,14 @@ class Character {
 
     public :
 
-        Character() ;
+        Character(std::string name = "anonymous"  , unsigned int health = 100 , int power = 0) ;
 
         void set_name(std::string name) ;
         void set_health(int health) ;
         void set_power(double power) ;
         void set_skill(Skill skill) ;
 
-        void print_information() ;
+        void print_information() const ;
 
 
     private :

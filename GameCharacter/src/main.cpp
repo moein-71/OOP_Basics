@@ -9,7 +9,8 @@ using namespace std ;
 // you are can add character with : add (following the prosses)
 // you are can print all of characters with : print    
 
-int main() {
+int main() 
+{
 
     Game Test_Game ;
 
@@ -19,17 +20,20 @@ int main() {
         string order ;
         cin>> order ;
         
-        if(order == "add") {
+        if(order == "add") 
+        {
             Test_Game.add_character() ;
-            
         }
-        else if(order == "print") {
+        else if(order == "print") 
+        {
             Test_Game.print_all_characters() ;
         }
-        else if(order == "exit") {
+        else if(order == "exit") 
+        {
             break ;
         }
-        else {
+        else 
+        {
             cout<< "if you want to exit write : exit \n" ;
         }
     }
