@@ -11,7 +11,7 @@ class Gps {
         Gps(int latitude , int longitude) ;
         ~Gps() ;
 
-        void set_new_location() ;
+        void set_new_location(int latitude , int longitude) ;
         void show_location() const ;
 
     private :

@@ -14,10 +14,10 @@ int main() {
     int latitude ;
     int longitude ;
 
-    cout<< "enter your latitude : \n" ;
+    cout<< "enter your first latitude : \n" ;
     cin>> latitude ;
 
-    cout<< "enter your longitude : \n" ;
+    cout<< "enter your first longitude : \n" ;
     cin>> longitude ;
 
     cout<< '\n' ;
@@ -25,28 +25,44 @@ int main() {
     
     Gps location(latitude , longitude) ;
 
-    while(1) {
+    while(1) 
+    {
 
         string order ;
 
         cout<< "enter your order \n" ;
         cin>> order ;
 
-        if(order == "set") {
-            try {
-                location.set_new_location() ;
+        if(order == "set") 
+        {
+            int latitude ;
+            int longitude ;
+
+            cout<< "enter your new latitude : \n" ;
+            cin>> latitude ;
+
+            cout<< "enter your new longitude : \n" ;
+            cin>> longitude ;
+
+            try 
+            {
+                location.set_new_location(latitude , longitude) ;
             }
-            catch (invalid_argument &s) {
+            catch (invalid_argument &s) 
+            {
                 cout<< s.what() << '\n' ;
             }
         }
-        else if(order == "show") {
+        else if(order == "show") 
+        {
             location.show_location() ;
         }
-        else if(order == "exit") {
+        else if(order == "exit") 
+        {
             break ;
         }
-        else {
+        else 
+        {
             cout<< "if you want to exit write : exit '\n'\n" ;
         }
     }
