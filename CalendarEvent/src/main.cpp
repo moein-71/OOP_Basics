@@ -9,30 +9,49 @@ using namespace std ;
 // 3- and i dont validate that if the time of some event have interfere their dont add because in a real calendar many of the events occur at the same time  
 
 
-int main() {
+int main() 
+{
 
     Calendar Table ;
+    Event add_this ;
 
-    while(1) {
+    while(1)
+    {
 
         cout<< "please enter your order \n" ;
 
         string order ;
         cin>> order ;
 
-        if(order == "add") {
-            Table.Add_Event() ;
+        if(order == "add") 
+        {
+            try
+            {
+                Table.Add_Event(add_this) ;
+            }
+            catch(invalid_argument &s) 
+            {
+                cout<< s.what() << '\n' ;
+            }
+            catch(...) 
+            {
+                cout<< "your date is not logical\n" ;
+            }
         }
-        else if(order == "refresh") {
+        else if(order == "refresh") 
+        {
             Table.Refresh() ;
         }
-        else if(order == "print") {
+        else if(order == "print") 
+        {
             Table.print_events() ;
         }
-        else if(order == "exit") {
+        else if(order == "exit") 
+        {
             break ;
         }
-        else {
+        else 
+        {
             cout<< "if you want to exit write : exit \n" ;
         }
     }

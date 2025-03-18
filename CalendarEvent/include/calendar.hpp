@@ -8,10 +8,11 @@
 class Calendar {
 
     public :
+
         Calendar() ;
-        void Add_Event() ;
+        void Add_Event(Event &add_this) ;
         void Refresh() ;
-        static void Cout_Deleted_Events() ;
+        void Cout_Deleted_Events() const ;
         void print_events() const ;
         
 

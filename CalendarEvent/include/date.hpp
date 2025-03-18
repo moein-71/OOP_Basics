@@ -7,6 +7,7 @@
 #include <vector>
 #include <chrono>
 #include <array>
+#include <stdexcept>
 
 struct  Date {
 
