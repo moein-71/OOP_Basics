@@ -9,7 +9,7 @@ class Sky {
 
         Sky() ;
         
-        void add_star(Star new_star) ;
+        void add_star(const Star &new_star) ;
         void draw() ;
         
     private :

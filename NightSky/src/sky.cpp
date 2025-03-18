@@ -1,5 +1,4 @@
 #include "sky.hpp"
-#include "raylib.h"
 
 using namespace std ;
 
@@ -8,7 +7,7 @@ Sky::Sky()
     star_list.reserve(10) ;
 }
 
-void Sky::add_star(Star new_star) 
+void Sky::add_star(const Star &new_star) 
 {
     star_list.push_back(new_star) ;
 }
