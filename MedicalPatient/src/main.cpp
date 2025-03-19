@@ -8,6 +8,8 @@ using namespace std ;
 // and with show command we are can see the list of patient in the console 
 // when we are exit the program information of all patient will added in to a txt file (this informations are encrpted) 
 
+// Extra : i validate respiratory rates from the age of patient 
+
 int main() 
 {
     Hospital Hospital_system ;
