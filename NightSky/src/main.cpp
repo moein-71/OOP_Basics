@@ -3,6 +3,12 @@
 
 using namespace std ;
 
+// this is some information about this mini project :
+// in this mini project we are have a empty space and we are want to fill it with stars 
+// first of all we are should to add stars with their x , y and the brightness of them (we are can add how much we want)
+// for seeing the stars we are should to write (draw) and we are will see them in the space
+// and if you want to add more stars you should to close the space and repeat the process
+
 int main() 
 {
     Sky sky ;

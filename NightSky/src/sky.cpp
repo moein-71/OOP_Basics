@@ -12,10 +12,10 @@ void Sky::add_star(const Star &new_star)
     star_list.push_back(new_star) ;
 }
 
-void Sky::draw() 
+void Sky::draw() const
 {
-    const int screenWidth = 800;
-    const int screenHeight = 600;
+    const int screenWidth = 800  ;
+    const int screenHeight = 600 ;
 
     InitWindow(screenWidth ,screenHeight , "Night_sky") ;
 
