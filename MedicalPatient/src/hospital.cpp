@@ -2,20 +2,20 @@
 
 using namespace std ;
 
-Hospital::Hospital() {
-    
+Hospital::Hospital() 
+{
     Patient_list.reserve(100) ;
 }
 
-void Hospital::add_patient(Patient & patient) {
-
+void Hospital::add_patient(Patient & patient) 
+{
     Patient_list.push_back(patient) ;
 }
 
-void Hospital::show_patient() {
-
-    for(int i{} ; i < Patient_list.size() ; ++i) {
-        
+void Hospital::show_patient() 
+{
+    for(int i{} ; i < Patient_list.size() ; ++i) 
+    {
         cout<< '\n' << "Name : " << Patient_list[i].get_name() << '\n' ;
         cout<< "Age : " << Patient_list[i].get_age() << '\n' ;
         cout<< "Height : " << Patient_list[i].get_height() << '\n' ;
@@ -29,36 +29,12 @@ void Hospital::show_patient() {
     cout<< '\n' ;
 }
 
-void Hospital::set_Number_of_patient(int NOP) {
-
-    ofstream NOP_file("Number_of_patient.txt") ;
-
-    NOP_file << to_string(NOP) ;
-}
-
-int Hospital::get_Number_of_patient() {
-
-    if(filesystem::exists("Number_of_patient.txt")) {
-
-        ifstream NOP_file("Number_of_patient.txt") ;
-
-        string NOP ;
-
-        NOP_file >> NOP ;
-
-        return stoi(NOP) ;
-    }
-    else {
-        return 0 ;
-    }
-}
-
-void Hospital::set_Patient_list(int NOP) {
-
+void Hospital::set_Patient_list(int NOP) 
+{
     ifstream patient_file("patient_file.txt") ;
 
-    for(int i{} ; i < NOP ; ++i) {
-
+    for(int i{} ; i < NOP ; ++i) 
+    {
         Patient add_patient ;
 
         string name ;
@@ -96,4 +72,36 @@ void Hospital::set_Patient_list(int NOP) {
 
         Patient_list.push_back(add_patient) ;
     }
+
+    patient_file.close() ;
 } 
+
+void Hospital::set_Number_of_patient(int NOP) 
+{
+    ofstream NOP_file("Number_of_patient.txt") ;
+
+    NOP_file << to_string(NOP) ;
+
+    NOP_file.close() ;
+}
+
+int Hospital::get_Number_of_patient() const 
+{
+    if(filesystem::exists("Number_of_patient.txt")) 
+    {
+        ifstream NOP_file("Number_of_patient.txt") ;
+
+        string NOP ;
+
+        NOP_file >> NOP ;
+
+        NOP_file.close() ;
+
+        return stoi(NOP) ;
+    }
+    else 
+    {
+        return 0 ;
+    }
+}
+

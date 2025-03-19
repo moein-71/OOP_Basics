@@ -2,24 +2,26 @@
 
 using namespace std ;
 
-int main() {
-
+int main() 
+{
     Hospital Hospital_system ;
 
     int Number_of_patient =  Hospital_system.get_Number_of_patient() ; 
 
-    if(Number_of_patient > 0) {
+    if(Number_of_patient > 0) 
+    {
         Hospital_system.set_Patient_list(Number_of_patient) ; 
     }
 
-    while(1) {
-
+    while(1) 
+    {
         string order ;
         
         cout<< "enter your order : " ;
         cin>> order ;
 
-        if(order == "add") {
+        if(order == "add") 
+        {
 
             string name ;
             cout<< '\n' << "enter patient name : " ;
@@ -39,7 +41,8 @@ int main() {
 
             Vital_signs patient ;
             
-            if(!patient.set_Vital_signs()) {
+            if(!patient.set_Vital_signs()) 
+            {
                 continue ;
             }
 
@@ -49,17 +52,18 @@ int main() {
 
             Hospital_system.add_patient(add_patient) ;
         }
-        else if(order == "show") {
-
+        else if(order == "show") 
+        {
             Hospital_system.show_patient() ;
         }
-        else if(order == "exit") {
-
+        else if(order == "exit") 
+        {
             Hospital_system.set_Number_of_patient(Number_of_patient) ;
             remove("patient_file.txt") ;
             break ;
         }
-        else {
+        else 
+        {
             cout<< "if you want to exit write : exit" ;
         }
     }
