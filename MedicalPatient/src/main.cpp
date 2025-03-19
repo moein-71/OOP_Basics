@@ -2,6 +2,12 @@
 
 using namespace std ;
 
+// this is some information about this mini project :
+// in this mini project we are have a hospital with lot of patient and we are want to manage them 
+// with add command we are can add patient 
+// and with show command we are can see the list of patient in the console 
+// when we are exit the program information of all patient will added in to a txt file (this informations are encrpted) 
+
 int main() 
 {
     Hospital Hospital_system ;
