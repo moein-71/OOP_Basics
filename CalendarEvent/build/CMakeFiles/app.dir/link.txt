@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.o CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.o -o app 

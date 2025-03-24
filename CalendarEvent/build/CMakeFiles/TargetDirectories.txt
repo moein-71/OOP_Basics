@@ -1,3 +1,0 @@
-/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build/CMakeFiles/app.dir
-/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build/CMakeFiles/edit_cache.dir
-/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build/CMakeFiles/rebuild_cache.dir
