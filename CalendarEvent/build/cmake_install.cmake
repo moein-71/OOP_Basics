@@ -1,4 +1,4 @@
-# Install script for directory: /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build
+# Install script for directory: /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

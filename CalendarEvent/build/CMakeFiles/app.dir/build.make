@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build
+CMAKE_SOURCE_DIR = /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build
+CMAKE_BINARY_DIR = /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/app.dir/depend.make
@@ -69,63 +69,63 @@ include CMakeFiles/app.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/app.dir/flags.make
 
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.o: /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.o -MF CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.o.d -o CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.o -c /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.o: /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.o -MF CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.o.d -o CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.o -c /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp
 
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp > CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.i
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp > CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.i
 
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp -o CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.s
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp -o CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.s
 
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o: /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o -MF CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o.d -o CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o -c /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o: /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o -MF CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o.d -o CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o -c /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp
 
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp > CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.i
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp > CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.i
 
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp -o CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.s
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp -o CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.s
 
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.o: /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.o -MF CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.o.d -o CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.o -c /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.o: /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.o -MF CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.o.d -o CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.o -c /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp
 
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp > CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.i
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp > CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.i
 
-CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp -o CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.s
+CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp -o CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
-"CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.o" \
-"CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o" \
-"CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.o"
+"CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.o" \
+"CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o" \
+"CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.o"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
 
-app: CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.o
-app: CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o
-app: CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.o
+app: CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.o
+app: CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o
+app: CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.o
 app: CMakeFiles/app.dir/build.make
 app: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/app.dir/clean:
 .PHONY : CMakeFiles/app.dir/clean
 
 CMakeFiles/app.dir/depend:
-	cd /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build /home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build /home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/app.dir/depend
 

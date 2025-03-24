@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o"
-  "CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o.d"
-  "CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.o"
-  "CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/event.cpp.o.d"
-  "CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.o"
-  "CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/src/main.cpp.o.d"
+  "CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o"
+  "CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/calendar.cpp.o.d"
+  "CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.o"
+  "CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/event.cpp.o.d"
+  "CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.o"
+  "CMakeFiles/app.dir/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/src/main.cpp.o.d"
   "app"
   "app.pdb"
 )

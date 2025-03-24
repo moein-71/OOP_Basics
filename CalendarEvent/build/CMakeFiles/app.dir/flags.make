@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/moein/work/pishrafte/HW2/OOP_Basics/CalendarEvent/build/../include
+CXX_INCLUDES = -I/home/moein/Desktop/sanati/40312358004_HW2/OOP_Basics/CalendarEvent/build/../include
 
 CXX_FLAGS = -std=gnu++23
 

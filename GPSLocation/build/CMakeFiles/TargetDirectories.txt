@@ -1,3 +1,0 @@
-/home/moein/work/pishrafte/HW2/OOP_Basics/GPSLocation/build/CMakeFiles/app.dir
-/home/moein/work/pishrafte/HW2/OOP_Basics/GPSLocation/build/CMakeFiles/edit_cache.dir
-/home/moein/work/pishrafte/HW2/OOP_Basics/GPSLocation/build/CMakeFiles/rebuild_cache.dir

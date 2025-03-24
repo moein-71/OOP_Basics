@@ -7,7 +7,7 @@ using namespace std ;
 // you are can use every one of them like this : order (for add the program will tell you what you should to type)
 // 2- in this project we have lot of validation but i dont validate the time of the added event is passed from real time because i want you to see my refresh function is work
 // 3- and i dont validate that if the time of some event have interfere their dont add because in a real calendar many of the events occur at the same time  
-
+// print function show all the evnets (even the deleted one)
 
 int main() 
 {

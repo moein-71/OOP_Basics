@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/NightSky/src/main.cpp.o CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/NightSky/src/sky.cpp.o CMakeFiles/app.dir/home/moein/work/pishrafte/HW2/OOP_Basics/NightSky/src/star.cpp.o -o app   -L/path/to/raylib/lib  -Wl,-rpath,/path/to/raylib/lib -lraylib 
